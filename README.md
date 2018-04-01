@@ -11,6 +11,18 @@
 $ composer require abishekrsrikaanth/normalize-value
 ```
 
+## Usage
+
+```php
+$normalizedValue = normalize_value(500, [
+        ["value" => 0, "norm" => 1],
+        ["value" => 1000, "norm" => 0]
+    ]);
+
+echo $normalizedValue; //0.5
+```
+
+
 ## License
 
 **normalize-value** © [Technicaliti](https://technicaliti.me), Released under the MIT License.<br>
