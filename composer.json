@@ -1,0 +1,35 @@
+{
+  "name": "abishekrsrikaanth/normalize-value",
+  "description": "Normalizes a value according to the specified steps, using feature scaling.",
+  "keywords": [
+    "feature",
+    "mean",
+    "normalisation",
+    "normalize",
+    "scaling",
+    "standardization",
+    "value",
+    "vector"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Abishek R Srikaanth",
+      "email": "abishek@technicaliti.me"
+    }
+  ],
+  "support": {
+    "email": "abishek@technicaliti.me"
+  },
+  "require": {
+    "php": ">=5.6",
+    "lodash-php/lodash-php": "dev-master"
+  },
+  "autoload": {
+    "files": [
+      "src/bootstrap.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

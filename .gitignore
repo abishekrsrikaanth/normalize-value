@@ -1,0 +1,8 @@
+vendor/
+/.settings
+/.buildpath
+/.project
+/.idea
+composer.phar
+/nbproject
+.php_cs.cache
